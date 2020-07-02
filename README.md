@@ -1,3 +1,3 @@
 # XSL Templates
 
-- Skroutz XML feed > Skroutz-XML-XSL-Template.xml
+- Skroutz XML feed > `Skroutz-XML-XSL-Template.xml`
