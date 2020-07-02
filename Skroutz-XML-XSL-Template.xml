@@ -21,7 +21,7 @@
 								<category><xsl:value-of select="name"/></category>
 							</xsl:for-each>
 							<price_with_vat><xsl:value-of select="php:functionString('round',price,2)"/></price_with_vat>
-							<manufacturer>Micro</manufacturer>
+							<manufacturer><xsl:value-of select="manufacturer"/></manufacturer>
 							<mpn><xsl:value-of select="sku"/></mpn>
 							<instock>
 								<xsl:choose>
@@ -29,7 +29,7 @@
 									<xsl:otherwise><xsl:text>N</xsl:text></xsl:otherwise>
 								</xsl:choose>
 							</instock>
-							<availability><![CDATA[1-3 ημέρες]]></availability>
+							<availability><xsl:value-of select="availability"/></availability>
 							<size><xsl:value-of select="size"/></size>
 							<weight><xsl:value-of select="weight"/></weight>
 							<color><xsl:value-of select="color"/></color>
